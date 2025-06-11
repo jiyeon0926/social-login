@@ -14,3 +14,14 @@
 - React 기반 SPA 애플리케이션에서 JWT 토큰 인증 방식 구현
 - JPA + MySQL 연동을 통한 사용자 정보 저장 및 인증 처리
 - 로그인 통합 처리 로직 구조화 및 실제 프로젝트에서 활용 가능한 코드 작성
+
+# 🛠️ 기술 스택
+- Java 21
+- Spring Boot 3.5.0 Version
+- JPA
+- Spring Security
+- JWT
+- OAuth2 Client
+- Thymeleaf
+- React
+- MySQL
