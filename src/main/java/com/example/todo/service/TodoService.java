@@ -31,7 +31,6 @@ public class TodoService {
     @Transactional
     public void deleteTodoById(Long id, User user) {
         Todo todo = checkOwnershipOrThrow(id, user);
-
         todoRepository.delete(todo);
     }
 
@@ -43,7 +42,6 @@ public class TodoService {
     @Transactional
     public void updateTodo(Long id, String title, String description, User user) {
         Todo todo = checkOwnershipOrThrow(id, user);
-
         todo.updateTodo(title, description);
     }
 
