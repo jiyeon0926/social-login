@@ -29,4 +29,17 @@ public class Todo {
         this.completed = false;
         this.user = user;
     }
+
+    public boolean isOwnedBy(User user) {
+        return this.user.getId().equals(user.getId());
+    }
+
+    public boolean isNotOwnedBy(User user) {
+        return !isOwnedBy(user);
+    }
+
+    public void updateTodo(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
 }
